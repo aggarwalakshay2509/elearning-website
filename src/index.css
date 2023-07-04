@@ -423,6 +423,11 @@
   margin-top: 30px;
   color: #6c6c6c;
 }
+.wrongCred{
+  color: red;
+  font-size: small;
+  font-weight: bold;
+}
 
 
 
@@ -607,9 +612,11 @@
 }
 .coursesVisible{
   display: flex;
+  justify-content: center;
   padding-top: 15px;
   margin-left: 20px;
   margin-right: 20px;
+  width: 100%;
 }
 
 

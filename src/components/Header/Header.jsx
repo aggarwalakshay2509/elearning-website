@@ -34,7 +34,7 @@ const Header = () => {
                         placeholder="Search courses ..."/>
                     </div>
                     <div className="searchIcon">
-                        <button type="submit" class="button"><i class="fa fa-search"></i></button>
+                        <Link to={"/courses"}><button type="submit" class="button"><i class="fa fa-search"></i></button></Link>
                     </div>
                 </div>
             </div>

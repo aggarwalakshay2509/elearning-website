@@ -15,7 +15,7 @@
   }
   
   .about__content {
-    padding-left: 50px;
+    padding-left: 50px;margin-top: 40px;
   }
   
   .about__img img {
@@ -24,6 +24,7 @@
   
   .about__content h2 {
     font-weight: 600;
+
   }  
   .cont{
     display: flex;

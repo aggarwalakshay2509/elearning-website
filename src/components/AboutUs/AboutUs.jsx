@@ -31,7 +31,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={25} duration={2} suffix="K" />
                     </span>
 
-                    <p className="counter__title">Completed Projects</p>
+                    <p className="counter__title">Students Enrolled</p>
                   </div>
                   <br/>
 
@@ -40,7 +40,7 @@ const AboutUs = () => {
                       <CountUp start={0} end={12} duration={2} suffix="M" />
                     </span>
 
-                    <p className="counter__title">Patient Around World</p>
+                    <p className="counter__title">Students Around World</p>
                   </div>
                 </div><br/>
 

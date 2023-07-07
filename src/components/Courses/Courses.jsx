@@ -78,7 +78,7 @@ const Courses=()=>{
                     <button class="arrow"><img class="categDes" src={courseDes} alt="ThisIsCourseDes"/></button>
                     <div class="categText">
                         <p class="categName">App Development</p>
-                        <p class="numCourses">0 courses</p>
+                        <p class="numCourses">1 courses</p>
                     </div>
                 </div>
                 <div class="singleCateg" id="Design" style={prop[3]} onClick={change}>

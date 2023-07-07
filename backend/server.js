@@ -1,8 +1,9 @@
 const express=require('express')
 const bodyParser=require('body-parser')
 const mongoose=require('mongoose')
+require('dotenv').config()
 const PORT=3001
-const DB="mongodb+srv://Akshay:akshay@cluster0.c02gjso.mongodb.net/dicproject?retryWrites=true&w=majority"
+const DB=process.env.MONGOURL
 
 mongoose.connect(DB,{useNewUrlParser:true}).then(()=>{
     console.log("Database connected")
